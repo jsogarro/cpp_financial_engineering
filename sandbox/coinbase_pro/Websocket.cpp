@@ -17,7 +17,7 @@ double Websocket::BestBidPx()
   // TODO: implement
 }
 
-double Websocket::MKtMidPx()
+double Websocket::MktMidPx()
 {
   // TODO: implement
 }
