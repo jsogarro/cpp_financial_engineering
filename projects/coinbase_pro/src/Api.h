@@ -15,7 +15,8 @@ class API
     Auth auth;
     std::string uri;
     std::string productId;
-    std::string GetBuyPrice();
+    std::string GetBidPrice();
+    std::string GetAskPrice();
     double GetBalance();
     std::string PlaceLimitOrder(std::string side, std::string price, std::string size);
 };
