@@ -21,3 +21,4 @@ Helpful resources for developing with C++.
 - [Bitcoin Source Code](https://github.com/bitcoin/bitcoin/tree/master/src)
 - [TensorFlow C++](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/cc)
 - [Folly Source Code](https://github.com/facebook/folly)
+- [V8](https://github.com/v8/v8/tree/master/src)
