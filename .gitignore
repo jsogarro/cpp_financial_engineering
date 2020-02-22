@@ -1,2 +1,12 @@
 .env
 executables
+*~
+bazel-*
+.bazelrc
+.idea
+# Eclipse
+.project
+.classpath
+.settings/
+# Maven
+target/
