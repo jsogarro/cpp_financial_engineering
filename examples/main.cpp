@@ -6,10 +6,9 @@ using namespace std;
 // return type is an int
 int main() {
   // print values
-  printf("V1: %d", "V2: %f", 10, 30.0);
+  printf("Hello world printf! \n");
 
-
-  cout << "Hello world!";
+  cout << "Hello world cout!" << endl;
 
   return 0;
 }

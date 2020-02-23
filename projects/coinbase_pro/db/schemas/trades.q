@@ -9,5 +9,6 @@ trades:([]
     exchangeTime:`date$();
     time:`time$();
     receivedTime:`date$();
-    exchange:`char$()
+    exchange:`char$();
+    strategy:`char$()
   );
