@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bazel build //main:hello-world
+bazel build //src/main:main
