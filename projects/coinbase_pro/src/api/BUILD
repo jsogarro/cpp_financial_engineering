@@ -6,3 +6,11 @@ cc_library(
     hdrs = ["Api.h"],
     visibility = ["//main:__pkg__"],
 )
+
+cc_binary(
+    name = "api",
+    srcs = ["Api.cpp"],
+    deps = [
+        "//auth:auth",
+    ],
+)
