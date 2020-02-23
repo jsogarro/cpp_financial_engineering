@@ -2,25 +2,19 @@
 
 using namespace std;
 
-double divisor(double numerator, double denominator) 
-{
+double divisor(double numerator, double denominator) {
   return numerator / denominator;
 }
 
-double multiplier(double num1, double num2) 
-{
-  return num1 * num2;
-}
+double multiplier(double num1, double num2) { return num1 * num2; }
 
-int main() 
-{
+int main() {
   const int MONTHS_IN_YEAR = 12;
   const int PERCENT_DENOMINATOR = 100;
 
   double principal = 0.0;
   double humanInterest = 0.0;
   int yearsOfLoan = 0;
-
 
   cout << "Enter amount: ";
 
@@ -38,10 +32,10 @@ int main()
   long monthsOfLoan = multiplier(yearsOfLoan, MONTHS_IN_YEAR);
 
   cout << "The principal entered is " << principal << "." << endl;
-  cout << "The interest entered is " << interest  << "." << endl;
+  cout << "The interest entered is " << interest << "." << endl;
 
   cout << "The monthly interest is " << monthsInterest << "." << endl;
   cout << "The months of the loan is " << monthsOfLoan << "." << endl;
-  
+
   return 0;
 }

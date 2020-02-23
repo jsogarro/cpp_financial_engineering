@@ -16,7 +16,7 @@ int main() {
   cin >> interest;
 
   cout << "The principal entered is " << principal << "." << endl;
-  cout << "The interest entered is " << interest  << "." << endl;
-  
+  cout << "The interest entered is " << interest << "." << endl;
+
   return 0;
 }
