@@ -4,10 +4,13 @@ cc_binary(
     name = "main",
     srcs = ["main.ccp"],
     deps = [
-        ":TBD",
-        "//api:main",
-        "//auth:main",
-        "//lib:main",
-        "//structs:main",
+        "//api:Api",
+        "//auth:Auth",
+        "//orders:Order",
+        "//publishers:Publisher",
+        "//strategies:Strategy",
+        "//structs:Product",
+        "//utils:Utils",
+        "//websockets:Websocket",
     ],
 )
